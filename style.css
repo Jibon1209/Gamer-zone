@@ -297,10 +297,11 @@ footer p{
         padding-left: 50px;
     }
     .online-container{
-        gap: 60px;
+        gap: 80px;
     }
     .online-card p{
         text-align: center;
+        font-size: 1.15rem;
     }
     .features{
         padding: 0px 20px;
@@ -310,6 +311,9 @@ footer p{
     }
     .feature-img-badge{
         position: relative;
+    }
+    .card p{
+        font-size: 1.15rem;
     }
     
 }
