@@ -250,8 +250,67 @@ nav{
 .feature-img-badge{
     position: absolute;
     bottom: -100px;
-    right: 650px;
+    right: 650px;    
+}
+/* Careers */
+.Careers{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    display: flex;
+    justify-content: space-between;
     
+}
+.Careers-contant{
+    padding-top: 100px;
+    padding-left: 150px;
+}
+.Careers-contant h3{
+    width: 426px;
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.Careers-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Careers-container-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+}
+.item1{
+    width: 680px;
+    color: #FFF;
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+.item2{
+    color: #FFF;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+}
+.Careers-container .align{
+    text-align: right;
+}
+.Careers-container-btn{
+    margin-top: 40px;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FF42A5;
+    border: none;
+}
+.Careers-img{
+    background-image: url("images/group14.png");
+    background-repeat: no-repeat;
 }
 /* game type */
 .gametype-section{
@@ -341,7 +400,8 @@ footer p{
     .nav-link-a > ul,
     .online-container,
     .features,
-    .main-section1
+    .main-section1,
+    .Careers
     {
         flex-direction: column;
     }
@@ -390,4 +450,19 @@ footer p{
     .main-title-p2{
         font-size: 1rem;
     }
+    .Careers-container{
+        justify-content: flex-start;
+        gap: 20px 10px;
+    }
+    .Careers-contant{
+        padding: 50px;
+    }
+    .item1{
+        width: auto;
+    }
+    .Careers-img img{
+    width: 665px;
+    height: auto;
+    }
+    
 }
